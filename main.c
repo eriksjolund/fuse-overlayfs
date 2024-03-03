@@ -5858,7 +5858,7 @@ main (int argc, char *argv[])
 
       dfd = dup (lo.workdir_fd);
       if (dfd < 0)
-        error (EXIT_FAILURE, errno, "dup workdir file descriptor");
+        error (EXIT_FAILURE, errno, "dup workdir file descriptor. Just change some code to test github actions ...");
       empty_dirfd (dfd);
     }
 
